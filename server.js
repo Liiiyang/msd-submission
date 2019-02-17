@@ -1,6 +1,5 @@
 //server.js
 "use strict";
-// Tutorial: https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
 //first we import our dependencies…
 var express = require("express");
 var mongoose = require("mongoose");
