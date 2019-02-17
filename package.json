@@ -1,0 +1,40 @@
+{
+  "name": "msd-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "es6-promise": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^5.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.5",
+    "semantic-ui-react": "^0.85.0",
+    "sinon": "^7.2.3",
+    "superagent": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js",
+    "darkSky": "nodemon dsServer.js",
+    "dev": "concurrently \"npm run start\" \"npm run server\" \"npm run darkSky\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
